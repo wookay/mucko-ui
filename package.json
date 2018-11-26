@@ -7,7 +7,9 @@
   "author": "WooKyoung Noh <wookay.noh@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "mucko": "^0.1.8"
+    "d3": "^5.7.0",
+    "mucko": "^0.1.8",
+    "waveform-data": "^2.1.2"
   },
   "scripts": {
     "test": "node test/runtests.js"
