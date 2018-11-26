@@ -5,7 +5,7 @@ mucko-ui 🍱
 
 
 ### UI Controls
-  - Knob : based on svg-knob (https://github.com/francoisgeorgy/svg-knob)
+  - KnobControl : based on svg-knob (https://github.com/francoisgeorgy/svg-knob)
 
 
 ### Yarn
