@@ -1006,6 +1006,4 @@ var Knob = function (elem, conf = {}) {
 
 }
 
-if (typeof window == "undefined") {
-    module.exports = { Knob }
-}
+module.exports = { Knob }

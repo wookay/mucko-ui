@@ -1,11 +1,11 @@
 // mucko.ui UI.js
 
 function get_ui() {
-    var Knob = require("./knob.js")
-    ui = {
-    Knob: Knob,
+    var KnobControl = require("./knob_control.js")
+    UI = {
+        KnobControl: KnobControl,
     }
-    return ui
+    return UI
 }
 
 

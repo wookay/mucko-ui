@@ -3,17 +3,18 @@
 var mucko = require("mucko")
 var Test = mucko.Test
 var Base = mucko.Base
-mucko.UI = require("../index.js").UI
 
 
-function inbrowser_UI() {
+function inbrowser_ui(UI) {
 }
 
 
 Test.test_ui = function () {
-    assert_true(Base.Meta.isa(mucko.UI, Object))
     if (Base.Sys.isbrowser()) {
-        inbrowser_UI()
+        mucko.UI = require("mucko.ui")
+        inbrowser_ui(mucko.UI)
     } else {
+        mucko.UI = require("../index.js")
     }
+    assert_true(Base.Meta.isa(mucko.UI, Object))
 }
