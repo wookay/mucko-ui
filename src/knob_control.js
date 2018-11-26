@@ -1,4 +1,4 @@
-// mucko.ui knob_control.js
+// mucko-ui knob_control.js
 
 var mucko = require("mucko")
 var Base = mucko.Base

@@ -1,4 +1,4 @@
-// mucko.ui index.js
+// mucko-ui index.js
 
 var UI = require("./src/UI.js")
 

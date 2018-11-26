@@ -1,4 +1,4 @@
-// mucko.ui UI.js
+// mucko-ui UI.js
 
 function get_ui() {
     var KnobControl = require("./knob_control.js")
