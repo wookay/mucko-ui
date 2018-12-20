@@ -8,7 +8,7 @@
   "license": "MIT",
   "dependencies": {
     "d3": "^5.7.0",
-    "mucko": "^0.1.8",
+    "mucko": "^0.1.9",
     "waveform-data": "^2.1.2"
   },
   "scripts": {
